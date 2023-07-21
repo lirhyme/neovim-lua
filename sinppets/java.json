@@ -1,0 +1,14 @@
+{
+  "sout": {
+    "prefix": "sout",
+    "body": ["System.out.println($0);"],
+    "description": "Print to standard out"
+  },
+  "log":{
+    "prefix":"log",
+    "body":["private final static Logger log = LoggerFactory.getLogger(${TM_FILENAME_BASE}.class);"],
+    "description":"generate object log"
+
+
+  }
+}
